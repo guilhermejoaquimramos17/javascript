@@ -6,23 +6,20 @@
     <title>Exercício 001</title>
     <style>
         body {
-            background-color: rgb(146, 146, 203);
+            background-color: rgb(165, 129, 165);
             color: white;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 1.3em;
-        } 
+        }
     </style>
 </head>
 <body>
     <h1>Olá, Mundo!</h1>
     <p>Bem-vindo ao JavaScript</p>
-    
-
     <script>
-        var n1 = Number(window.prompt('Digite um número: ')) 
+        var n1 = Number(window.prompt('Digite um número: '))
         var n2 = Number(window.prompt('Digite outro número: '))
         var soma = n1 + n2
-        window.alert('A soma dos números é: ' + String(soma))
+        window.alert(`A soma de ${n1} e ${n2} é igual a: ${soma}`) // usa template string
     </script>
 </body>
 </html>
