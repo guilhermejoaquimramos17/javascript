@@ -10,6 +10,12 @@ header, footer{
     text-align: center;
 }
 
+img#foto{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
 section{
     background-color: white;
     color: black;
