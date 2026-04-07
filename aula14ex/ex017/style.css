@@ -22,10 +22,7 @@ section input {
     margin: 10px;
 }
 
-div#res > select#tabuada {
-    width: 150px;
-    height: 150px;
-}
+
 
 footer {
     font-style: italic;
