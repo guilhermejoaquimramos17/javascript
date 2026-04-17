@@ -1,11 +1,9 @@
-function parimpar(n){
-    if (n%2 == 0){
+function parimp(n){
+    if(n%2==0){
         return 'Par'
-    } else {
+    } else{
         return 'Ímpar'
     }
 }
 
-// let res = parimpar(15)
-// console.log(res)
-console.log(parimpar(12))
+console.log(parimp(7))
