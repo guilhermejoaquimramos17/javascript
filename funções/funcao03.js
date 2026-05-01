@@ -1,7 +1,10 @@
 function local() {
     let msg = 'Olá' // escopo local
-    console.log(msg)
+    console.log(msg.length)
+    
 }
+
+local()
 
 //local()
 
