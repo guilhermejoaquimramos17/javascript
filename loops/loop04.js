@@ -12,3 +12,10 @@ for(let i = 0; i < 10; i++){
     console.log(i)
 }
 
+for(const chave in mapa){
+    if(mapa[chave].length > 1){
+      startIndices.push(...mapa[chave])// esse spread operator(...) espalha os elementos do array startIndices.push(mapa[chave])        // ❌ → [[0, 3]]
+    //startIndices.push(...mapa[chave])     // ✅ → [0, 3]
+    }
+  }
+
